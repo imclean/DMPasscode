@@ -91,4 +91,14 @@
  */
 @property (nonatomic, strong) UIColor * navigationBarTitleColor;
 
+@property (nonatomic, strong) NSString * enterNewCodeString;
+@property (nonatomic, strong) NSString * enterCodeToUnlockString;
+@property (nonatomic, strong) NSString * repeatCodeString;
+@property (nonatomic, strong) NSString * dontMatchString;
+@property (nonatomic, strong) NSString * okayString;
+@property (nonatomic, strong) NSString * nAttempsLeftString;
+@property (nonatomic, strong) NSString * oneAttemptLeftString;
+@property (nonatomic, strong) NSString * touchIDReasonString;
+
+
 @end
