@@ -28,6 +28,14 @@
         self.navigationBarTitle = @"";
         self.navigationBarFont = [UIFont systemFontOfSize:16];
         self.navigationBarTitleColor = [UIColor darkTextColor];
+        self.enterNewCodeString = @"";
+        self.enterCodeToUnlockString = @"";
+        self.repeatCodeString = @"";
+        self.dontMatchString = @"";
+        self.okayString = @"";
+        self.nAttempsLeftString = @"";
+        self.oneAttemptLeftString = @"";
+        self.touchIDReasonString = @"";
     }
     return self;
 }
